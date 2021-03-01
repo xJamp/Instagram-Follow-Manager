@@ -393,8 +393,7 @@ class Backend():
 			self.Label_Barra.config(text = 'Logger: El usuario no existe')
 
 		self.Sesion_Activa.config(state = 'normal')
-		self.Boton_Comenzar.config(state = 'normal')
-		self.Boton_Lupa.config(state = 'disabled')
+		self.Boton_Lupa.config(state = 'normal')
 
 	def Comenzar_Proceso(self):
 		self.Boton_Lupa.config(state = 'disabled')
